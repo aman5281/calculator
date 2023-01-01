@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 360px;
+    margin: 60px auto;
+}
+
+.input-number{
+    width: 100%;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-family: monospace;
+    text-align: right;
+    border: none;
+}
+
+.button{
+    background-color: whitesmoke;
+    border: 1.5px solid black;
+    padding-block :18px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight:bold;
+}
+
+.button:hover{
+    background-color: antiquewhite;
+}
+
+.number-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.orange{
+    background-color: rgb(255, 192, 33);
+}
+
+.span-2{
+    grid-column: span 2;
+}
+
+.span-3{
+    grid-column: span 3;
+}
