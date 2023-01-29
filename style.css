@@ -50,3 +50,8 @@
 .span-3{
     grid-column: span 3;
 }
+
+.info{
+    text-align: center;
+    font-weight: bold;
+}
